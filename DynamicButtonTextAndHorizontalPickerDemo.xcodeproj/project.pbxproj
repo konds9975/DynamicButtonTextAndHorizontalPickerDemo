@@ -15,6 +15,7 @@
 		1A27333B20C8F767001600DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A27333920C8F767001600DE /* LaunchScreen.storyboard */; };
 		1A27334620C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27334520C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoTests.swift */; };
 		1A27335120C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27335020C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoUITests.swift */; };
+		1A27335F20C8F7A9001600DE /* ExtentionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27335E20C8F7A9001600DE /* ExtentionClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A27334C20C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicButtonTextAndHorizontalPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A27335020C8F767001600DE /* DynamicButtonTextAndHorizontalPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicButtonTextAndHorizontalPickerDemoUITests.swift; sourceTree = "<group>"; };
 		1A27335220C8F767001600DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A27335E20C8F7A9001600DE /* ExtentionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtentionClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1A27332C20C8F764001600DE /* DynamicButtonTextAndHorizontalPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A27335E20C8F7A9001600DE /* ExtentionClass.swift */,
 				1A27332D20C8F764001600DE /* AppDelegate.swift */,
 				1A27332F20C8F764001600DE /* ViewController.swift */,
 				1A27333120C8F764001600DE /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				1A27333020C8F764001600DE /* ViewController.swift in Sources */,
 				1A27332E20C8F764001600DE /* AppDelegate.swift in Sources */,
 				1A27333620C8F764001600DE /* DynamicButtonTextAndHorizontalPickerDemo.xcdatamodeld in Sources */,
+				1A27335F20C8F7A9001600DE /* ExtentionClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
